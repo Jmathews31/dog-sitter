@@ -5,3 +5,10 @@
     height: 40px;
     background-color: antiquewhite;
 }
+
+.breeds {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
