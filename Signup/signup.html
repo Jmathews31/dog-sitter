@@ -15,21 +15,21 @@
         </nav>
 
 
-        <div class="test">
+        <div class="names">
             <form action="/form-handeling-url" method="post">
                 <fieldset>
                     <legend>Contact Info</legend>
-                    <div>
+                    <div class="first">
                         <label for="firstname">First Name</label>
                         <input type="text" id="firstName" name="first_name">
                     </div>
 
-                    <div>
+                    <div class="last">
                         <label for="lastname">Last Name</label>
                         <input type="text" id="lastName" name="last_name">
                     </div>
 
-                    <div>
+                    <div class="mail">
                         <label for="email">Email</label>
                         <input type="text" id="email" name="email">
                     </div>
@@ -37,35 +37,41 @@
 
         </div>
 
-            <fieldset>
-                <legend>What Service Would You Like?</legend>
-                <div>
-                    <input type="checkbox" id="board" name="board">
-                    <label for="board">Boarding</label>
+        <div class="services">
+                <fieldset>
+                    <legend class="leg">What Service Would You Like?</legend>
+                    <div>
+                        <input type="checkbox" id="board" name="board">
+                        <label for="board">Boarding</label>
 
-                    <input type="checkbox" id="sit" name="sit">
-                    <label for="sit">House Sitting</label>
+                        <input type="checkbox" id="sit" name="sit">
+                        <label for="sit">House Sitting</label>
 
-                    <input type="checkbox" id="visit" name="visit">
-                    <label for="visit">Drop-In Visits</label>
+                        <input type="checkbox" id="visit" name="visit">
+                        <label for="visit">Drop-In Visits</label>
 
-                    <input type="checkbox" id="day" name="day">
-                    <label for="day">Day Care</label>
+                        <input type="checkbox" id="day" name="day">
+                        <label for="day">Day Care</label>
 
-                    <input type="checkbox" id="walk" name="walk">
-                    <label for="walk">Dog Walk</label>
-                </div>
+                        <input type="checkbox" id="walk" name="walk">
+                        <label for="walk">Dog Walk</label>
+                    </div>
 
-                <div>
-                    <legend>Additional Service Needed?</legend>
+                    <div>
+                        <legend class="leg2">Additional Service Needed?</legend>
 
-                    <p>Have any other services you might want?</p>
+                        <div class="more">
+                            <label for="addit_info">Services</label>
+                            <textarea id="addit_info" name="addit_info"></textarea>
+                        </div>
 
-                    <label for="addit_info">Services</label>
-                    <textarea id="addit_info" name="addit_info"></textarea>
-                </div>
-            </fieldset>
-        </form>
+                        <div class="but">
+                            <button class="button">Submit</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
 
 
     </body>

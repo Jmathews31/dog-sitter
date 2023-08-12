@@ -6,6 +6,61 @@
     background-color: antiquewhite;
 }
 
-.test {
+.names {
     background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first {
+    padding: 4px;
+}
+
+.last {
+    padding: 4px;
+}
+
+.mail {
+    padding: 4px;
+}
+
+#email {
+    margin-left: 32px;
+}
+
+.services {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.leg {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.leg2 {
+    margin-left: 155px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.more {
+    display: flex;
+    justify-content: center;
+}
+
+label[for="addit_info"] {
+    margin: 5px;
+}
+
+.but {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
