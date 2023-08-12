@@ -1,0 +1,11 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    background-color: antiquewhite;
+}
+
+.test {
+    background-color: aquamarine;
+}
