@@ -5,3 +5,16 @@
     height: 40px;
     background-color: antiquewhite;
 }
+
+.memes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+
+}
+
+.sizer {
+    height: 500px;
+    width: 500px;
+    margin: 5px;
+}
